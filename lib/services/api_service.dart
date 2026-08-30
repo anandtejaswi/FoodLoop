@@ -16,8 +16,8 @@ class ApiService {
   static final ApiService instance = ApiService._();
 
   // ─── Base URL – change to your server IP in production ───────
-  static const String _baseUrl = 'https://foodloop-production-9c9e.up.railway.app/api';
-static const String _baseHost = 'https://foodloop-production-9c9e.up.railway.app';
+  static const String _baseUrl = '';
+static const String _baseHost = '';
 
   // ─── For Android emulator, use: http://10.0.2.2:4000
   // ─── For physical device, use your machine's IP: http://192.168.x.x:4000
